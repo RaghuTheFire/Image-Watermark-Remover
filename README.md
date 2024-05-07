@@ -2,11 +2,11 @@
 To build an FLTK project on UBUNTU 20.04.
 
 Install FLTK and two additional packages:
-$ sudo apt install fltk1.3-dev
-$ sudo apt install libxft-dev
-$ sudo apt install libxinerama-dev
+# $ sudo apt install fltk1.3-dev
+# $ sudo apt install libxft-dev
+# $ sudo apt install libxinerama-dev
 After this, you can define an FLTK project, and build it without problems.
-If you do not install the libxft-dev and libXinerama-dev packages, you will indeed get these error messages listed in question about missing libraries (-lXft, -lfontconfig, -lXinerama).
+If you do not install the libxft-dev and libXinerama-dev packages, you will indeed get these error messages about missing libraries (-lXft, -lfontconfig, -lXinerama).
 
 # Image_watermark_remover.cpp
 This C++ code uses the OpenCV library for image processing and the FLTK library for creating a graphical user interface (GUI). The code provides functionality to open an image, remove watermarks, and display the original and processed images.
