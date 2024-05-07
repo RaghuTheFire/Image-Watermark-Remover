@@ -8,7 +8,7 @@ $ sudo apt install libxinerama-dev
 After this, you can define an FLTK project, and build it without problems.
 If you do not install the libxft-dev and libXinerama-dev packages, you will indeed get these error messages listed in question about missing libraries (-lXft, -lfontconfig, -lXinerama).
 
-# image_watermark_remover.cpp
+# Image_watermark_remover.cpp
 This C++ code uses the OpenCV library for image processing and the FLTK library for creating a graphical user interface (GUI). The code provides functionality to open an image, remove watermarks, and display the original and processed images.
 
 Here's a breakdown of the code:
@@ -21,4 +21,4 @@ Here's a breakdown of the code:
 6. The `Fl::run()` function is called to start the GUI event loop and display the window.
 
 To compile and run this code, you'll need to have OpenCV and FLTK libraries installed on your system. The compilation command will depend on your specific setup and compiler, but it should be similar to:
-g++ -o image_watermark_remover image_watermark_remover.cpp `fltk-config --cxxflags --ldflags` -lopencv_core -lopencv_highgui -lopencv_imgproc
+g++ -o image_watermark_remover Image_watermark_remover.cpp `fltk-config --cxxflags --ldflags` -lopencv_core -lopencv_highgui -lopencv_imgproc
